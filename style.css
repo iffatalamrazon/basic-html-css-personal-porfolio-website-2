@@ -1,0 +1,72 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+}
+.name-highlight{
+    color:red ;
+    
+}
+h1{
+    font-size:50px
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color : dimgray ;
+}
+.half-weight{
+    width:40% ;
+    float:left ;
+    margin-left:5% ;
+    padding-left: 2% ;
+
+}
+.half-weight  img {
+width:100% ;
+}
+.button-link {
+    text-decoration: none ;
+    background-image: linear-gradient( 45deg, black ,red);
+    color :white;
+    font-weight: 700px;
+    padding : 10px  20px;
+    border-radius : 10px
+}
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+.dream-area {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat ;
+    background-position: right ;
+}
+.single{
+    box-shadow:10px 10px 40px gray;
+    border-radius : 5px ;
+    height : 80% ;
+    background-color: rebeccapurple;
+}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat ;
+    background-position: right ;
+}
+#line{
+    border-left: 7px solid ;
+    border-image: linear-gradient(black , green);
+    border-image-slice: 1;
+}
+#junior{
+    border-left: 7px solid ;
+    border-image: linear-gradient(black,red);
+    border-image-slice: 1;  
+}
+footer {
+    text-align: center ;
+}
